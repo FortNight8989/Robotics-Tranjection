@@ -1,0 +1,10 @@
+P = [23; -12; 3; 1]
+tt1 = 2.36;
+h1 = 52;
+h2 = h1/tan(tt1);
+G = Rot_x(tt1)*Trans(0, -h1, 0)*Rot_y(pi/2)*Trans(h2, 0, 0)*P
+% % p = [23; - 12; 3; 1]
+% % tt1 =-0.46 ;
+% % h1 = 1.4;
+% % h2 = h1/tan(tt1);
+% % G = Rot_x(tt1)*Trans(0,-h1,0)*Rot_y(pi/2)*Trans(h2,0,0)*p
